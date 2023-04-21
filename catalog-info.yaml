@@ -15,7 +15,7 @@ metadata:
     backstage.io/kubernetes-id: "k8s"
     sonarqube.org/project-key: "k8s"
     grafana/tag-selector: "Kubernetes"
-    prometheus.io/rule: container_cpu_usage_seconds_total{namespace="k8s"}
+    prometheus.io/rule: container_cpu
     prometheus.io/alert: all
   tags:
     - golang
